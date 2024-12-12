@@ -3,4 +3,6 @@
 2. left join the table ( on 條件) > 2個 table name (primary key)
 
 *
-
+select p.firstname, p.lastname, a.city, a.state
+From Person p LEFT JOIN Address a
+on p.personId = a.personId
