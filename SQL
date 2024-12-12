@@ -1,6 +1,6 @@
 * SQL  175 combine twe tabless :
 1. select all the column name from table
-2. left join the table ( on 條件) > 2個 table name
+2. left join the table ( on 條件) > 2個 table name (primary key)
 
 *
 
