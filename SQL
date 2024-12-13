@@ -6,3 +6,10 @@
 select p.firstname, p.lastname, a.city, a.state
 From Person p LEFT JOIN Address a
 on p.personId = a.personId
+-------------------------------------------------------------------
+* 182. Duplicate Emails
+
+select p.email
+from person p
+group by p.email
+having count(p.email)>1;
